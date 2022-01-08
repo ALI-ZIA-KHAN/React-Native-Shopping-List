@@ -4,7 +4,7 @@ import Header from './components/Heading';
 import ListItem from './components/Listitem'
 import AddItem from './components/AddItem';
 
-
+import Icon from 'react-native-vector-icons/FontAwesome';
 const App=()=>{
 
   const [items,setItems]=useState([

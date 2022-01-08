@@ -7,9 +7,8 @@ import {
   TextInput,
   Button
 } from 'react-native';
-
-import Icon from 'react-native-vector-icons/dist/FontAwesome.js';
-
+import Icon from 'react-native-vector-icons/FontAwesome';
+// import { Icon } from 'react-native-elements';
 const ListItem = ({
   item,
   deleteItem
@@ -32,12 +31,12 @@ const ListItem = ({
 
         />
           
-          {/* <Icon
-            name="remove"
+          <Icon
+            name="rocket"
             size={20}
             color="firebrick"
             
-          /> */}
+          />
         
       
       </View>
